@@ -1,0 +1,38 @@
+h3 {
+    margin-top:90px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.compatibility {
+	background-color: $background-color_5;
+	hr {
+		background-color: $background-color_6;
+	}
+	p {
+		font-size: 16px;
+	}
+}
+.compatibility__item {
+	font-weight: 600;
+}
+.compatibility__img {
+	margin-bottom: 120px;
+}
+@media only screen and (max-width: 990px) {
+	.compatibility__img {
+		margin-bottom: 50px;
+	}
+    h3 {
+		margin-top: 40px;
+	}
+	.ios {
+		margin-bottom: 0px;
+	}
+}
+@media only screen and (max-width:420px) {
+	.compatibility {
+		p {
+			font-size: 13px;
+		}
+	}
+}

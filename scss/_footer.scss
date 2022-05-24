@@ -1,0 +1,100 @@
+.subscribe {
+	p {
+		font-size: 16px;
+	}
+}
+.copyright {
+	p {
+		margin-top: 95px;
+		margin-bottom: 112px;
+		font-weight: 600;
+		font-family: $font-family_3;
+	}
+}
+.footer {
+	background-color: $background-color_7;
+}
+.footer__subscribe {
+	margin-top: 64px;
+}
+input[type="submit"] {
+	color: $color_2;
+	padding: 8px 23px 7px 23px;
+	background-color: $background-color_8;
+	border-radius: 5px;
+	border: none;
+	transition: all 0.5s ease;
+	font-size: 16px;
+	&:hover {
+		background-color: $background-color_1;
+		color: $color_2;
+	}
+}
+input {
+	padding: 5px 0px 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #a3a3a3;
+	&::placeholder {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.subscribe {
+		text-align: center;
+	}
+	.copyright {
+		p {
+			margin-bottom: 0px;
+			font-size: 16px;
+			text-align: center;
+			margin-top: 40px;
+		}
+	}
+	.footer__subscribe {
+		margin-top: 20px;
+	}
+	.footer__main {
+		padding: 20px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+@media only screen and (max-width:540px) {
+     .copyright {
+         p {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    }
+    .footer__subscribe {
+        margin-top:0px;
+    }
+    input[type=email] {
+	margin-bottom: 10px;
+	width: 75%;
+}
+    input[type=submit] {
+	width: 75%;
+}
+}
+@media only screen and (max-width:420px) {
+	.subscribe {
+		p {
+			font-size: 13px;
+		}
+	}
+	input {
+		&::placeholder {
+			font-size: 13px;
+		}
+	}
+	input[type=email] {
+		width: 100%;
+	}
+	input[type=submit] {
+		width: 100%;
+		font-size: 13px;
+	}
+}

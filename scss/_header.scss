@@ -1,0 +1,250 @@
+header {
+	background: url(../img/iPhone.png) no-repeat center center;
+	background-position: bottom;
+	background-color: $background-color_1;
+	margin-bottom: 109px;
+	a {
+		color: $color_2;
+	}
+}
+.navbar-brand {
+	margin-top: -14px;
+	font-weight: 700;
+	font-size: 60px;
+	font-family: $font-family_2;
+	color: $color_2;
+	&:hover {
+		text-decoration: none;
+		color: $color_2;
+	}
+}
+.navbar-nav {
+	.nav-link {
+		&:hover {
+			color: $color_2;
+		}
+		line-height: 1.2;
+		margin-right: 26px;
+	}
+	margin-left: 270px;
+}
+.navbar {
+	background-color: $background-color_1;
+	.navbar-toggler {
+		display: none;
+		border-color: $border-color_1;
+	}
+}
+.navbar-toggler-icon {
+	background-image: url(../img/icons/icons-menu.png);
+}
+.underline {
+	text-decoration: none;
+	position: relative;
+	&:hover {
+		&:before {
+			left: 10;
+			right: 0;
+			position: absolute;
+			content: "";
+			height: 5px;
+			bottom: 65px;
+			right: -4px;
+			width: 100%;
+			background: #fff;
+		}
+	}
+}
+.capture {
+	h1 {
+		margin-top: 200px;
+		margin-bottom: 76px;
+		font-size: 90px;
+		font-weight: 600;
+        font-family: $font-family_3;
+		color: $color_2;
+	}
+	a {
+		text-decoration: none;
+		color: $color_2;
+	}
+	.appstore {
+		margin-bottom: 237px;
+        padding: 6px 12px 6px 11px;
+        font-size: 30px;
+        border-radius: 5px;
+        border: 3px solid #ffffff;
+        margin-right: 29px;
+        color: $color_2;
+        img {
+		margin-right: 16px;
+        }
+    }
+	.playstore {
+		margin-bottom: 237px;
+        padding: 6px 12px 6px 11px;
+        font-size: 30px;
+        border-radius: 5px;
+        border: 3px solid #ffffff;
+        color: $color_2;
+        img {
+		margin-right: 16px;
+        }
+    }
+}
+.carousel1__dots {
+	margin-bottom: 55px;
+}
+@media only screen and (max-width:1500px) {
+	header {
+		background-size: 1500px;
+		background-position: bottom;
+	}
+	.slider_capture {
+		margin-bottom: 100px;
+	}
+	.capture {
+		h1 {
+			margin-top: 200px;
+		}
+	}
+}
+@media only screen and (max-width:1200px) {
+	header {
+		background-size: contain;
+		background-position: bottom;
+	}
+	.capture {
+		h1 {
+			font-size: 76px;
+			margin-top: 70px;
+		}
+	}
+	.slider_capture {
+		margin-top: 32px;
+	}
+	.navbar-nav {
+		margin-left: 40px;
+		.nav-link {
+			margin-right: 20px;
+		}
+	}
+}
+@media only screen and (max-width: 990px) {
+	.header {
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		.navbar-toggler {
+			display: block;
+		}
+		li {
+			margin: 10px;
+			font-size: 18px;
+		}
+	}
+	.navbar-nav {
+		margin: 0 auto;
+		.nav-link {
+			margin-right: 0;
+		}
+	}
+	.navbar-brand {
+		margin-top: 0;
+		font-size: 50px;
+	}
+	.underline {
+		&:hover {
+			&:before {
+				background: 0 0;
+			}
+		}
+	}
+	.capture {
+		h1 {
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+		.appstore {
+			margin-bottom: 150px;
+		}
+		.playstore {
+			margin-bottom: 150px;
+		}
+	}
+    .slider_capture {
+		margin-bottom: 70px;
+	}
+}
+@media only screen and (max-width: 770px) {
+	header {
+		background-size: 700px;
+	}
+	.capture {
+		h1 {
+			max-width: 415px;
+			margin: 0 auto;
+			font-size: 50px;
+			text-align: center;
+		}
+	}
+}
+@media only screen and (max-width:540px) {
+	header {
+		background-size: 500px;
+		margin-bottom: 20px;
+	}
+	.capture {
+		h1 {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 40px;
+		}
+		.appstore {
+			width: 50%;
+			margin-bottom: 20px;
+            margin-right: 0;
+		}
+		.playstore {
+			width: 50%;
+			margin-bottom: 90px;
+		}
+	}
+	.navbar-light {
+		.navbar-brand {
+			font-size: 30px;
+		}
+	}
+	.mobile {
+		display: flex;
+		flex-flow: column wrap;
+		align-content: center;
+	}
+}
+@media only screen and (max-width:420px) {
+	header {
+		background-size: contain;
+	}
+	.navbar-brand {
+		padding-left: 5px;
+	}
+	.navbar {
+		.navbar-toggler {
+			margin-left: 0;
+		}
+	}
+	.capture {
+		h1 {
+			font-size: 36px;
+		}
+		.appstore {
+			width: 75%;
+		}
+		.playstore {
+			width: 75%;
+		}
+}
+}

@@ -1,0 +1,33 @@
+$color_1: #666666;
+$color_2: #fff;
+$color_3: #3a3a3a;
+$color_4: #aeaeae;
+$color_5: #f06464;
+$color_6: #c2c2c2;
+$font-family_1: 'Varela Round', sans-serif;
+$font-family_2: 'Myriad Pro', sans-serif;
+$font-family_3: 'Montserrat', sans-serif;
+$background-color_1: #de5d5d;
+$background-color_2: #262626;
+$background-color_3: #313131;
+$background-color_4: #151515;
+$background-color_5: #e7e7e7;
+$background-color_6: #cbcbcb;
+$background-color_7: #f4f4f4;
+$background-color_8: #f06464;
+$background-color_9: rgba(255,255,255, 0);
+$background-color_10: rgba(255,255,255,1);
+$background-color_11: #fff;
+$border-color_1: #DDD;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+
+@import "body";
+@import "header";
+@import "whyama";
+@import "share";
+@import "features";
+@import "takenwithama";
+@import "believeme";
+@import "compatibility";
+@import "footer";

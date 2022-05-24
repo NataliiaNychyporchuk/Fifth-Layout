@@ -1,0 +1,103 @@
+.download {
+	background-color: $background-color_1;
+	a {
+		text-decoration: none;
+		color: $color_2;
+	}
+	.appstore {
+        padding: 6px 12px 6px 11px;
+        font-size: 30px;
+        border-radius: 5px;
+        border: 3px solid #ffffff;
+        margin-right: 29px;
+        color: $color_2;
+        img {
+		margin-right: 16px;
+        }
+    }
+	.playstore {
+        padding: 6px 12px 6px 11px;
+        font-size: 30px;
+        border-radius: 5px;
+        border: 3px solid #ffffff;
+        color: $color_2;
+        img {
+		margin-right: 16px;
+        }
+        }
+}
+blockquote {
+	margin-top: 177px;
+}
+.download__store {
+	margin-bottom: 218px;
+}
+.appicon {
+	display: block;
+	margin-top: 225px;
+}
+.quote {
+	color: $color_2;
+	margin-bottom: 43px;
+	footer {
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 990px) {
+	blockquote {
+		margin-top: 20px;
+	}
+	.download__store {
+		margin-bottom: 50px;
+	}
+	.appicon {
+		display: block;
+		margin-top: 50px;
+	}
+	.quote {
+		footer {
+			font-size: 24px;
+		}
+	}
+}
+@media only screen and (max-width: 770px) {
+	.download {
+		text-align: center;
+	}
+	.appicon {
+		margin: 30px auto 0;
+	}
+	.store {
+		justify-content: center;
+	}
+}
+@media only screen and (max-width:540px) { 
+    .store {
+        flex-flow: column wrap;
+        align-content: center;
+    }
+    blockquote {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 36px;
+    }
+   .download {
+       .appstore {
+        margin-bottom: 10px;
+        width: 75%;
+    }
+       .playstore {
+        width: 75%;
+    }
+    }
+@media only screen and (max-width:420px) {
+	.download {
+		.appstore {
+			width: 100%;
+		}
+		.playstore {
+			width: 100%;
+		}
+	}
+    }
+}
